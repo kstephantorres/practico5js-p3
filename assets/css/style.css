@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+label{
+    width: 35vw;
+}
+
+button{
+    margin-bottom: 20px;
+    margin-left: 2px;
+    margin-right:2px ;
+}
+main{
+    margin: 0 5px;
+    flex-grow:1;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+form {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 85vw;
+    margin: 20px auto;
+  }
+
+  label {
+    font-weight: bold;
+  }
+  input {
+    margin-bottom: 10px;
+  }
+
+  button {
+    margin-top: 10px;
+  }
+
+
+  #tareaInput {
+    width: 60%;
+    margin-right: 10px;
+  }
+
+  #listaTareas {
+    margin-top: 20px;
+  }
+
+  .tarea-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
